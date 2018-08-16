@@ -1,3 +1,4 @@
+import Nav from '../components/nav';
 import Test from '../components/test-component';
 
 class Schedule extends React.Component {
@@ -6,11 +7,14 @@ class Schedule extends React.Component {
     render() {
         return (
             <div>
-                <h4>Schedule view</h4>
+                <Nav />
+                <div className="page">
+                    <h4>Schedule view</h4>
 
-                <p>Coming soon...</p>
+                    <p>Coming soon...</p>
 
-                <Test></Test>
+                    <Test></Test>
+                </div>
             </div>
         );
     }
