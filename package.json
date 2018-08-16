@@ -1,0 +1,26 @@
+{
+  "name": "g2-prototyping",
+  "version": "1.0.0",
+  "description": "Design-phase code prototypes to flesh-out interactions, test-out technologies, communicate interactions and more.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonkylefrank/G2-Prototyping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonkylefrank/G2-Prototyping/issues"
+  },
+  "homepage": "https://github.com/jasonkylefrank/G2-Prototyping#readme",
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
