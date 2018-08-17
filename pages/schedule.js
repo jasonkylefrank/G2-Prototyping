@@ -3,7 +3,6 @@ import Test from '../components/test-component';
 
 class Schedule extends React.Component {
 
-
     render() {
         return (
             <div>
@@ -20,6 +19,5 @@ class Schedule extends React.Component {
     }
 }
 
-
-
 export default Schedule;
+
