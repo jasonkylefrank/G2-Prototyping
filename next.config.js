@@ -1,3 +1,3 @@
 module.exports = {
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/g2prototyping' : ''
+    //assetPrefix: process.env.NODE_ENV === 'production' ? '/g2prototyping' : ''
 };
