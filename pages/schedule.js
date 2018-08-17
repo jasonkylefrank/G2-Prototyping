@@ -21,7 +21,7 @@ import Test from '../components/test-component';
 
 // export default Schedule;
 
-export default (props) => {
+export default (props) => (
     <div>
         <Nav />
         <div className="page">
@@ -32,4 +32,4 @@ export default (props) => {
             <Test></Test>
         </div>
     </div>
-};
+);
