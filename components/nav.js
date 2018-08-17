@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { assetPrefix } from '../next.config';
+//import { assetPrefix } from '../next.config';
 
 export default (props) => {
 
@@ -13,7 +13,8 @@ export default (props) => {
         // The assetPrefix solves the Github project pages URL prefix problem
         return (
             <li key={index}>
-                <Link href={url} as={assetPrefix + url}>
+                {/* <Link href={url} as={assetPrefix + url}> */}
+                <Link href={url}>
                     <a>{linkText}</a>
                 </Link>
             </li>
