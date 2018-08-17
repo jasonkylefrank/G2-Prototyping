@@ -1,35 +1,23 @@
 import Nav from '../components/nav';
 import Test from '../components/test-component';
 
-// class Schedule extends React.Component {
+class Schedule extends React.Component {
 
-//     render() {
-//         return (
-//             <div>
-//                 <Nav />
-//                 <div className="page">
-//                     <h4>Schedule view</h4>
+    render() {
+        return (
+            <div>
+                <Nav />
+                <div className="page">
+                    <h4>Schedule view</h4>
 
-//                     <p>Coming soon...</p>
+                    <p>Coming soon...</p>
 
-//                     <Test></Test>
-//                 </div>
-//             </div>
-//         );
-//     }
-// }
+                    <Test></Test>
+                </div>
+            </div>
+        );
+    }
+}
 
-// export default Schedule;
+export default Schedule;
 
-export default (props) => (
-    <div>
-        <Nav />
-        <div className="page">
-            <h4>Schedule view</h4>
-
-            <p>Coming soon...</p>
-
-            <Test></Test>
-        </div>
-    </div>
-);
