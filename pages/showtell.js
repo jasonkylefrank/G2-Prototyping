@@ -1,3 +1,3 @@
 export default (props) => (
-    <div>Hello folks!</div>
+    <h2>Hello folks!</h2>
 );
